@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing — V5 Spatial Intelligence</title>
+    <link rel="icon" type="image/png" href="logo/Névtelen terv (1).png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="pricing.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">
+                <img src="logo/Névtelen terv (1).png" alt="V5 Logo" class="logo-img">
+                <span class="logo-text">V5</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#features">Features</a></li>
+                <li><a href="index.html#capabilities">Capabilities</a></li>
+                <li><a href="pricing.html" class="nav-active">Pricing</a></li>
+                <li><a href="docs.html">Docs</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+            <a href="index.html#contact" class="nav-cta">Get Access</a>
+            <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Pricing Hero -->
+    <section class="pricing-hero">
+        <div class="pricing-hero-bg">
+            <div class="orb orb-1"></div>
+            <div class="orb orb-2"></div>
+            <div class="orb orb-3"></div>
+            <div class="grid-overlay"></div>
+        </div>
+        <div class="container">
+            <div class="pricing-hero-content">
+                <div class="hero-badge fade-up delay-1">
+                    <span class="badge-dot"></span>
+                    TRANSPARENT PRICING
+                </div>
+                <h1 class="pricing-hero-title fade-up delay-2">
+                    Intelligence that <span class="gradient-text">scales with you.</span>
+                </h1>
+                <p class="pricing-hero-sub fade-up delay-3">
+                    From solo analysts to full intelligence teams — choose the plan that matches your operational tempo.
+                </p>
+                <!-- Billing Toggle -->
+                <div class="billing-toggle fade-up delay-4">
+                    <span class="toggle-label" id="label-monthly">Monthly</span>
+                    <button class="toggle-switch" id="billingToggle" aria-label="Toggle billing period">
+                        <span class="toggle-thumb"></span>
+                    </button>
+                    <span class="toggle-label" id="label-annual">
+                        Annual
+                        <span class="save-badge">Save 20%</span>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Cards -->
+    <section class="section pricing-section">
+        <div class="container">
+            <div class="pricing-grid">
+
+                <!-- Analyst Tier -->
+                <div class="pricing-card reveal">
+                    <div class="card-header">
+                        <div class="tier-label">
+                            <span class="label-line"></span>
+                            <span>ANALYST</span>
+                        </div>
+                        <h3 class="tier-name">Solo</h3>
+                        <p class="tier-desc">For independent analysts and researchers running targeted investigations.</p>
+                    </div>
+                    <div class="card-price">
+                        <span class="price-currency">$</span>
+                        <span class="price-amount" data-monthly="49" data-annual="39">49</span>
+                        <span class="price-period">/ month</span>
+                    </div>
+                    <a href="#" class="btn btn-ghost btn-full">Start Free Trial</a>
+                    <div class="card-divider"></div>
+                    <ul class="feature-list">
+                        <li class="feature-item">
+                            <span class="check-icon">
+                                <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M3 8l4 4 6-6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                            </span>
+                            <span>Up to 50 geolocation queries/day</span>
+                        </li>
+                        <li class="feature-item">
+                            <span class="check-icon">
+                                <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M3 8l4 4 6-6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                            </span>
+                            <span>Standard satellite imagery (3-day lag)</span>
+                        </li>
+                        <li class="feature-item">
+                            <span class="check-icon">
+                                <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M3 8l4 4 6-6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                            </span>
+                            <span>2 active monitoring zones</span>
+                        </li>
+                        <li class="feature-item">
+                            <span class="check-icon">
+                                <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M3 8l4 4 6-6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                            </span>
+                            <span>Basic AI detection models</span>
+                        </li>
+                        <li class="feature-item">
+                            <span class="check-icon">
+                                <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M3 8l4 4 6-6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                            </span>
+                            <span>PDF export reports</span>
+                        </li>
+                        <li class="feature-item feature-item--muted">
+                            <span class="cross-icon">
+                                <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M4 4l8 8M12 4l-8 8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+                            </span>
+                            <span>Real-time feeds</span>
+                        </li>
+                        <li class="feature-item feature-item--muted">
+                            <span class="cross-icon">
+                                <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M4 4l8 8M12 4l-8 8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+                            </span>
+                            <span>API access</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Pro Tier (Featured) -->
+                <div class="pricing-card pricing-card--featured reveal">
+                    <div class="card-glow"></div>
+                    <div class="featured-badge">Most Popular</div>
+                    <div class="card-header">
+                        <div class="tier-label">
+                            <span class="label-line"></span>
+                            <span>PRO</span>
+                        </div>
+                        <h3 class="tier-name">Operator</h3>
+                        <p class="tier-desc">For professional teams needing real-time data and advanced analytics workflows.</p>
+                    </div>
+                    <div class="card-price">
+                        <span class="price-currency">$</span>
+                        <span class="price-amount" data-monthly="199" data-annual="159">199</span>
+                        <span class="price-period">/ month</span>
+                    </div>
+                    <a href="https://geoplatform-chi.vercel.app/login" class="btn btn-primary btn-full">Get Started</a>
+                    <div class="card-divider"></div>
+                    <ul class="feature-list">
+                        <li class="feature-item">
+                            <span class="check-icon">
+                                <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M3 8l4 4 6-6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                            </span>
+                            <span>Unlimited geolocation queries</span>
+                        </li>
+                        <li class="feature-item">
+                            <span class="check-icon">
+                                <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M3 8l4 4 6-6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                            </span>
+                            <span>Near real-time satellite imagery (4hr)</span>
+                        </li>
+                        <li class="feature-item">
+                            <span class="check-icon">
+                                <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M3 8l4 4 6-6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                            </span>
+                            <span>25 active monitoring zones</span>
+                        </li>
+                        <li class="feature-item">
+                            <span class="check-icon">
+                                <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M3 8l4 4 6-6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                            </span>
+                            <span>Full AI detection suite + anomaly alerts</span>
+                        </li>
+                        <li class="feature-item">
+                            <span class="check-icon">
+                                <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M3 8l4 4 6-6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                            </span>
+                            <span>Real-time monitoring feeds</span>
+                        </li>
+                        <li class="feature-item">
+                            <span class="check-icon">
+                                <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M3 8l4 4 6-6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                            </span>
+                            <span>REST API access (10k calls/mo)</span>
+                        </li>
+                        <li class="feature-item">
+                            <span class="check-icon">
+                                <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M3 8l4 4 6-6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                            </span>
+                            <span>Up to 5 team members</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Enterprise Tier -->
+                <div class="pricing-card reveal">
+                    <div class="card-header">
+                        <div class="tier-label">
+                            <span class="label-line"></span>
+                            <span>ENTERPRISE</span>
+                        </div>
+                        <h3 class="tier-name">Command</h3>
+                        <p class="tier-desc">For organizations demanding full-spectrum intelligence with dedicated infrastructure.</p>
+                    </div>
+                    <div class="card-price card-price--custom">
+                        <span class="price-custom">Custom</span>
+                        <span class="price-period">contact us</span>
+                    </div>
+                    <a href="index.html#contact" class="btn btn-ghost btn-full">Request Demo</a>
+                    <div class="card-divider"></div>
+                    <ul class="feature-list">
+                        <li class="feature-item">
+                            <span class="check-icon">
+                                <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M3 8l4 4 6-6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                            </span>
+                            <span>Everything in Operator</span>
+                        </li>
+                        <li class="feature-item">
+                            <span class="check-icon">
+                                <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M3 8l4 4 6-6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                            </span>
+                            <span>Live satellite feed (sub-1hr refresh)</span>
+                        </li>
+                        <li class="feature-item">
+                            <span class="check-icon">
+                                <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M3 8l4 4 6-6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                            </span>
+                            <span>Unlimited monitoring zones</span>
+                        </li>
+                        <li class="feature-item">
+                            <span class="check-icon">
+                                <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M3 8l4 4 6-6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                            </span>
+                            <span>Dedicated inference cluster</span>
+                        </li>
+                        <li class="feature-item">
+                            <span class="check-icon">
+                                <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M3 8l4 4 6-6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                            </span>
+                            <span>Unlimited API calls + webhooks</span>
+                        </li>
+                        <li class="feature-item">
+                            <span class="check-icon">
+                                <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M3 8l4 4 6-6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                            </span>
+                            <span>Custom model fine-tuning</span>
+                        </li>
+                        <li class="feature-item">
+                            <span class="check-icon">
+                                <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M3 8l4 4 6-6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                            </span>
+                            <span>24/7 dedicated support + SLA</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Feature Comparison Table -->
+    <section class="section comparison-section">
+        <div class="container">
+            <div class="section-grid">
+                <div class="section-label reveal">
+                    <span class="label-line"></span>
+                    <span>COMPARE</span>
+                </div>
+                <div class="section-content">
+                    <h2 class="section-title reveal">
+                        Full <span class="gradient-text">capability breakdown.</span>
+                    </h2>
+                </div>
+            </div>
+            <div class="comparison-table-wrap reveal">
+                <table class="comparison-table">
+                    <thead>
+                        <tr>
+                            <th class="feature-col">Capability</th>
+                            <th>Solo</th>
+                            <th class="col-featured">Operator</th>
+                            <th>Command</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="row-group"><td colspan="4">Imagery & Data</td></tr>
+                        <tr>
+                            <td>Satellite resolution</td>
+                            <td>3m</td>
+                            <td class="col-featured">0.5m</td>
+                            <td>0.3m</td>
+                        </tr>
+                        <tr>
+                            <td>Imagery refresh rate</td>
+                            <td>72 hrs</td>
+                            <td class="col-featured">4 hrs</td>
+                            <td>&lt;1 hr</td>
+                        </tr>
+                        <tr>
+                            <td>Historical archive access</td>
+                            <td>30 days</td>
+                            <td class="col-featured">2 years</td>
+                            <td>Full archive</td>
+                        </tr>
+                        <tr>
+                            <td>Multi-spectral layers</td>
+                            <td class="cell-cross"><svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M4 4l8 8M12 4l-8 8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></td>
+                            <td class="col-featured cell-check"><svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M3 8l4 4 6-6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></td>
+                            <td class="cell-check"><svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M3 8l4 4 6-6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></td>
+                        </tr>
+                        <tr class="row-group"><td colspan="4">AI & Analysis</td></tr>
+                        <tr>
+                            <td>Object detection</td>
+                            <td>Basic</td>
+                            <td class="col-featured">Advanced</td>
+                            <td>Custom models</td>
+                        </tr>
+                        <tr>
+                            <td>Anomaly alerting</td>
+                            <td class="cell-cross"><svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M4 4l8 8M12 4l-8 8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></td>
+                            <td class="col-featured cell-check"><svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M3 8l4 4 6-6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></td>
+                            <td class="cell-check"><svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M3 8l4 4 6-6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></td>
+                        </tr>
+                        <tr>
+                            <td>Predictive intelligence</td>
+                            <td class="cell-cross"><svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M4 4l8 8M12 4l-8 8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></td>
+                            <td class="col-featured cell-cross"><svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M4 4l8 8M12 4l-8 8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></td>
+                            <td class="cell-check"><svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M3 8l4 4 6-6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></td>
+                        </tr>
+                        <tr class="row-group"><td colspan="4">Access & Integrations</td></tr>
+                        <tr>
+                            <td>API calls / month</td>
+                            <td>—</td>
+                            <td class="col-featured">10,000</td>
+                            <td>Unlimited</td>
+                        </tr>
+                        <tr>
+                            <td>Webhook notifications</td>
+                            <td class="cell-cross"><svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M4 4l8 8M12 4l-8 8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></td>
+                            <td class="col-featured cell-check"><svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M3 8l4 4 6-6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></td>
+                            <td class="cell-check"><svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M3 8l4 4 6-6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></td>
+                        </tr>
+                        <tr>
+                            <td>SSO / SAML</td>
+                            <td class="cell-cross"><svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M4 4l8 8M12 4l-8 8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></td>
+                            <td class="col-featured cell-cross"><svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M4 4l8 8M12 4l-8 8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></td>
+                            <td class="cell-check"><svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M3 8l4 4 6-6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="section faq-section">
+        <div class="container">
+            <div class="section-grid">
+                <div class="section-label reveal">
+                    <span class="label-line"></span>
+                    <span>FAQ</span>
+                </div>
+                <div class="section-content">
+                    <h2 class="section-title reveal">
+                        Common <span class="gradient-text">questions.</span>
+                    </h2>
+                </div>
+            </div>
+            <div class="faq-list">
+                <div class="faq-item reveal">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>Can I switch plans at any time?</span>
+                        <span class="faq-icon">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                        </span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes. You can upgrade or downgrade your plan at any time from your account dashboard. Upgrades take effect immediately with prorated billing. Downgrades apply at the next billing cycle.</p>
+                    </div>
+                </div>
+                <div class="faq-item reveal">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>Is there a free trial?</span>
+                        <span class="faq-icon">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                        </span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>The Solo plan comes with a 14-day free trial — no credit card required. The Operator plan includes a 7-day trial. Enterprise access is granted after a qualification call with our team.</p>
+                    </div>
+                </div>
+                <div class="faq-item reveal">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>What data sources does V5 use?</span>
+                        <span class="faq-icon">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                        </span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>V5 aggregates data from commercial satellite constellations, open-source intelligence feeds, publicly available signal data, and proprietary sensor networks. Specific source documentation is available to Pro and Enterprise subscribers.</p>
+                    </div>
+                </div>
+                <div class="faq-item reveal">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>How is my data secured?</span>
+                        <span class="faq-icon">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                        </span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>All data is encrypted in transit and at rest using AES-256. V5 maintains SOC 2 Type II compliance. Enterprise plans support air-gapped deployments and on-premises installations upon request.</p>
+                    </div>
+                </div>
+                <div class="faq-item reveal">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>Do you offer government or institutional pricing?</span>
+                        <span class="faq-icon">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                        </span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes. We offer specialized pricing structures for government agencies, NGOs, academic institutions, and verified security organizations. Contact our team to discuss your requirements.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="section section-contact">
+        <div class="container">
+            <div class="cta-block reveal">
+                <div class="cta-glow"></div>
+                <h2 class="cta-title">Start seeing the <span class="gradient-text">full picture.</span></h2>
+                <p class="cta-text">No commitment required. Upgrade, downgrade, or cancel any time.</p>
+                <div class="cta-actions">
+                    <a href="https://geoplatform-chi.vercel.app/login" class="btn btn-primary btn-lg">Get Started Free</a>
+                    <a href="index.html#contact" class="btn btn-ghost btn-lg">Talk to Sales</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="nav-logo">
+                        <img src="logo/Névtelen terv (1).png" alt="V5 Logo" class="logo-img">
+                        <span class="logo-text">V5</span>
+                    </a>
+                    <p class="footer-tagline">Spatial Intelligence OSINT Platform</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Platform</h4>
+                    <a href="index.html#features">Features</a>
+                    <a href="index.html#capabilities">Capabilities</a>
+                    <a href="pricing.html">Pricing</a>
+                    <a href="#">Documentation</a>
+                </div>
+                <div class="footer-links">
+                    <h4>Company</h4>
+                    <a href="index.html#about">About</a>
+                    <a href="#">Careers</a>
+                    <a href="#">Blog</a>
+                    <a href="index.html#contact">Contact</a>
+                </div>
+                <div class="footer-links">
+                    <h4>Legal</h4>
+                    <a href="#">Privacy</a>
+                    <a href="#">Terms</a>
+                    <a href="#">Security</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <span>&copy; 2026 V5. All rights reserved.</span>
+                <span class="footer-status">
+                    <span class="status-dot"></span>
+                    All systems operational
+                </span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="pricing.js"></script>
+</body>
+</html>
